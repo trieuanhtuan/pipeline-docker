@@ -10,7 +10,7 @@ pool:
   vmImage: windows-latest
 
 variables:
-          imageName: 'pipelines-javascript-docker'
+          imageName: 'pipeline-docker'
 
 steps:
 - script: echo Hello, world!
